@@ -1,5 +1,5 @@
 {% set name = "mleap" %}
-{% set version = "0.8.1" %}
+{% set version = "0.15.0" %}
 
 package:
   name: "{{ name|lower }}"
@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: eb384a239747f319297a0b4f2bb5c076f01cfd942d7f72a173494606f402fdad
+  sha256: 9f698ce539917ce861659891661680b5814bf0d42e26c8f637431fb8c02c28f3
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv "
 
