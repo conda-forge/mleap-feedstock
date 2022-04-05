@@ -1,5 +1,5 @@
 {% set name = "mleap" %}
-{% set version = "0.19.0" %}
+{% set version = "0.20.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 1ae1959b16d804474676bab2ef84725bf2db5aa39b316c6892f4ef20f35d75bd
+  sha256: 71e1e794dca351b2fc3dc4355b351d95a99f499e95843fe3c49bb6d421139b06
 
 build:
   number: 0
