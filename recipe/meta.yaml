@@ -1,5 +1,5 @@
 {% set name = "mleap" %}
-{% set version = "0.23.3" %}
+{% set version = "0.23.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: c5cdd1a61822a6444998a864cfd7ad72dacaeb4f483418d626219ae4c8d02b13
+  sha256: 85d6469aebdaa5aca4a698620ee02c1b60c8f7e8c64fad5f187ea5b21241466d
 
 build:
   number: 0
@@ -23,7 +23,7 @@ requirements:
     - numpy >=1.8.2
     - pandas >=0.18.1
     - python >={{ python_min }}
-    - scikit-learn ~=1.0.0
+    - scikit-learn ~=1.0
     - scipy >=0.13.0b1
     - six >=1.10.0
 
