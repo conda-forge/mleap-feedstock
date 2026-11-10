@@ -1,5 +1,5 @@
 {% set name = "mleap" %}
-{% set version = "0.25.3" %}
+{% set version = "0.26.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 0a067dd1ea76fd79e771c4678d924955b01a0ff4a25142edef0d0ae9dfddc7d8
+  sha256: 93a35a1ba50890ed3bdf04d79861502b27e65c7c3ee2b9f99a6db1b7f0901798
 
 build:
   number: 0
